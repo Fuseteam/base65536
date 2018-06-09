@@ -11,12 +11,11 @@
     "strictNullChecks": true,
     "outDir": ".",
     "noImplicitAny": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "lib": ["es2015"]
   },
   "files": [
-    "src/dist/base65536.ts",
-    "src/bin/base65536.ts",
-    "src/test/base65536.spec.ts",
-    "src/test/parse.spec.ts"
+    "src/lib/index.ts",
+    "src/test/index.spec.ts"
   ]
 }
